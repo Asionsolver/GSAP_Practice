@@ -22,3 +22,16 @@ body {
   width: 300px;
   background-color: crimson;
 }
+
+h1 {
+  color: blue;
+  font-size: 40px;
+}
+h2 {
+  color: maroon;
+  font-size: 30px;
+}
+h3 {
+  color: hotpink;
+  font-size: 20px;
+}
