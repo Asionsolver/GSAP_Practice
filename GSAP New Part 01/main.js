@@ -61,4 +61,5 @@ timeLine.from('h1',{
     opacity: 0,
     delay: 0.5,
     scale: 0.5,
+    skewX: 45,
 })

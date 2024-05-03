@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(22, 21, 21);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.box1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(20, 220, 133);
+}
+
+.box1 .heading-one {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.box1 .sub-box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(220, 20, 20);
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.box2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(220, 153, 20);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  color: aliceblue;
+}
+
+.box2 .sub-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(220, 200, 20);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.box2 .sub-box-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.box3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(183, 20, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 .sub-box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(47, 20, 220);
+}
+.box4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(20, 217, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 .sub-box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(133, 118, 228);
+}
+
+.page1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(87, 130, 165);
+}
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(70, 152, 153);
+}
+
+.page2 h1 {
+  font-size: 40vw;
+  color: white;
+  text-transform: uppercase;
+}
+
+.page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(88, 153, 70);
+}
